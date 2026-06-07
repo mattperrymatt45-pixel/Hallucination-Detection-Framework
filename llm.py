@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MODEL = "deepseek/deepseek-r1:free"
+MODEL = "deepseek/deepseek-chat"
 
 def get_client():
     api_key = os.getenv("OPENROUTER_API_KEY")
