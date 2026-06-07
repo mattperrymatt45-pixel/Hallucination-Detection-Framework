@@ -1,7 +1,7 @@
 streamlit
-google-generativeai
 faiss-cpu
 sentence-transformers
 scikit-learn
 numpy
 python-dotenv
+openai
