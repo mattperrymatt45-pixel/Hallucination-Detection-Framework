@@ -22,16 +22,17 @@ def get_client():
 def generate_answer(question: str) -> str:
     client = get_client()
 
+   try:
     response = client.chat.completions.create(
         model=MODEL,
         messages=[
-            {
-                "role": "user",
-                "content": question
-            }
+            {"role": "user", "content": question}
         ],
         temperature=0.7,
     )
+except Exception as e:
+    st.error(str(e))
+    raise
 
     return response.choices[0].message.content
 
