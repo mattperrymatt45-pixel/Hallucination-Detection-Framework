@@ -230,5 +230,8 @@ Then open: [http://localhost:8501](http://localhost:8501)
 
 This project is open-source. See [LICENSE](./LICENSE) for details.
 
-👨‍💻 Author
-Made by Rihen Moradia
+---
+
+## 👨‍💻 Author
+
+Made by **Rihen Moradia**
