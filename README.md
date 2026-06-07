@@ -229,3 +229,6 @@ Then open: [http://localhost:8501](http://localhost:8501)
 ## 📄 License
 
 This project is open-source. See [LICENSE](./LICENSE) for details.
+
+👨‍💻 Author
+Made by Rihen Moradia
