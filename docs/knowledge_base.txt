@@ -1,0 +1,29 @@
+Artificial Intelligence and Machine Learning Overview
+
+Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn. Machine learning (ML) is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed.
+
+Deep learning is a subset of machine learning that uses neural networks with many layers to model complex patterns. It has driven major advances in image recognition, natural language processing, and speech recognition.
+
+Large Language Models (LLMs) are a class of deep learning models trained on vast amounts of text data. They are capable of generating human-like text, answering questions, summarising content, and performing a wide range of language tasks. Examples include GPT-4, Gemini, and Claude.
+
+Hallucination in LLMs refers to the phenomenon where a model generates text that is factually incorrect or unsupported by the input context. This is a key challenge in deploying LLMs in production environments where accuracy is critical.
+
+Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval with text generation. A retriever fetches relevant documents from a knowledge base, and the generator conditions its output on those documents, reducing hallucinations and improving factual accuracy.
+
+Climate change is primarily caused by the increase in greenhouse gases in the atmosphere, particularly carbon dioxide (CO2) and methane. These gases trap heat from the sun, leading to a gradual rise in global temperatures — a process known as the greenhouse effect. Human activities such as burning fossil fuels, deforestation, and industrial processes are the main contributors.
+
+The effects of climate change include rising sea levels, more frequent and intense weather events, disruption to ecosystems and biodiversity, and threats to food and water security. International agreements such as the Paris Agreement aim to limit global warming to 1.5°C above pre-industrial levels.
+
+Renewable energy sources such as solar, wind, and hydroelectric power produce electricity without emitting greenhouse gases. The transition from fossil fuels to renewable energy is considered essential for addressing climate change.
+
+Neural networks are inspired by the structure of the human brain. They consist of layers of interconnected nodes (neurons). During training, the weights of these connections are adjusted to minimise prediction error using an optimisation algorithm called gradient descent.
+
+The transformer architecture, introduced in the paper "Attention Is All You Need" (Vaswani et al., 2017), revolutionised NLP. Transformers use a mechanism called self-attention to weigh the importance of different words in a sequence, allowing them to capture long-range dependencies efficiently.
+
+FAISS (Facebook AI Similarity Search) is an open-source library for efficient similarity search and clustering of dense vectors. It is widely used in production retrieval systems to find nearest neighbours in large vector databases at scale.
+
+Sentence Transformers is a Python library that provides pre-trained models for generating semantically meaningful sentence embeddings. The all-MiniLM-L6-v2 model is a lightweight, high-quality model commonly used for semantic search and clustering tasks.
+
+Cosine similarity is a metric used to measure how similar two vectors are, irrespective of their magnitude. It is calculated as the dot product of two normalised vectors and ranges from -1 to 1, where 1 means identical direction.
+
+Self-consistency is a prompting strategy for LLMs where multiple independent answers are sampled for the same question, and the final answer is determined by aggregating or comparing the results. High agreement among samples indicates higher reliability.
